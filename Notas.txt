@@ -1,0 +1,70 @@
+R Studio Tenia por default Letra: Curier cambiamos por SimSum y y Thema (Default) cambiamos por pastel Dark
+
+
+Notas de R https://adv-r.hadley.nz/functionals.html
+
+https://r4ds.had.co.nz/pipes.html   // r for data science very goog
+read 21)iteration to see loop and map function
+
+
+
+Libros de Ciencia de Datos
+R: https://es.r4ds.hadley.nz/?fbclid=IwAR2g6cIj_FNhT_JdDOHVYrxlI2oYy5RckRijlPqFspC6sr5zbGTkOEK0DbQ
+Python
+
+
+--Para abrir una ventaja de comanados desde la ubicación actual
+Shift + Boton derecho del mouse/ abrir ventana de comandos 
+alt 92 =\
+
+https://www.digitalcitizen.life/command-prompt-how-use-basic-commands (codigo CMD)
+>d:
+>cd\Analista Pricing\6.0 Personal\R
+
+--Para regresar un nivel anterior de la ubicación actual
+cd .. 
+
+--Para abrir Jupyter
+Jupyter notebook
+
+--Para craear un ejecutable que ejecute la operacion de abrir Jupyter solo tenemos que 
+Crear un txt y cambiarle la extesión a .bat y dentro de ir editarlo e introducir el comando
+Jupyter notebook
+
+
+Para instalar R entrar a cmd y
+> conda install -c r r-essentials
+
+--Si sublime text no ejecuta con el comando ctr+b leer lo siguiente
+--esto es debido a que como reconoce varios lenguajes debemos configurar con cual va a trabajar
+https://pythoniza.me/ejecutar-python-en-sublimetext-3/
+
+--Pagina Muy buena de MarckDown
+http://joedicastro.com/pages/markdown.html
+
+
+
+-----Ahora en caso de instalar el nuevo anaconado podemos tener poblemas
+Cuando instalás Anaconda, te dan la opción de agregar Anaconda a la variable PATH o no hacerlo. Si lo hacés, vas a poder usar el Python de Anaconda desde cualquier terminal. Si no lo hacés, solo podrás usarlo desde el "Anaconda Prompt" que se instala con Anaconda. La primera opción es más simple pero puede traer problemas si tenías otras versiones de Python instaladas
+
+Para hacer podemos https://medium.com/@hektorprofe/tutorial-windows-10-agregar-el-python-de-anaconda-al-path-para-utilizarlo-en-la-cmd-y-powershell-72acf22901a
+
+Nos vamos a Variables de Entorno/ seleccionamos path/ editar y agragamos 
+
+C:\Users\luis.meza\AppData\Local\Continuum\anaconda3
+C:\Users\luis.meza\AppData\Local\Continuum\anaconda3\Scripts
+C:\Users\luis.meza\AppData\Local\Continuum\anaconda3\Library\bin
+C:\Users\luis.meza\AppData\Local\Continuum\anaconda3\Library\usr\bin
+
+nota:
+
+Añade las siguientes rutas al Path, utiliza el botón Nuevo para crearlas (si tienes anaconda instalado en otro directorio tendrás que cambiarlo por el tuyo):
+- C:\anaconda3
+- C:\anaconda3\Scripts
+- C:\anaconda3\Library\bin
+- C:\anaconda3\Library\usr\bin
+
+luego nos vamos a cmd o cmd de anaconda y ponemos:
+conda install -c r r-essentials
+
+esteperamos y luego damos "y" de yes

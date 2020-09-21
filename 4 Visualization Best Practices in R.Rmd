@@ -1,0 +1,28 @@
+---
+title: "Visualization Best Practices in R" 
+subtitle: "Data Camp Course"
+author: "LMeza"
+output: html_document
+---
+
+## Course Description
+This course will help you take your data visualization skills beyond the basics and hone them into a powerful member of your data science toolkit. Over the lessons we will use two interesting open datasets to cover different types of data (proportions, point-data, single distributions, and multiple distributions) and discuss the pros and cons of the most common visualizations. In addition, we will cover some less common alternatives visualizations for the data types and how to tweak default ggplot settings to most efficiently and effectively get your message across.
+
+```{r message=FALSE}
+library(readr)
+url_csv<-"https://assets.datacamp.com/production/repositories/1864/datasets/71386124a72f58a50fbc07b8254f47ef9a867ebe/who_disease.csv"
+who_disease<-read_csv(url_csv)
+str(who_disease)
+```
+
+### 1) Proportions of a whole
+In this chapter, we focus on visualizing proportions of a whole; we see that pie charts really aren't so bad, along with discussing the waffle chart and stacked bars for comparing multiple proportions.
+
+#### 1.1) Course/Grammar of Graphics Intro
+
+
+```{r}
+getwd()
+
+```
+

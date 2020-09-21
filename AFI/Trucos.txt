@@ -1,0 +1,26 @@
+------------------------------------
+------------------------------------
+Remover espacio & limpiar la hoja de trabajo
+
+rm(list=ls())
+cat('\014')
+
+
+
+------------------------------------
+------------------------------------
+Alt : para escribir vertical 
+
+por ejemplo puede server imaginemos que tenemos 
+1
+2
+3
+4
+
+y quiero ponerlo en una linea 1,2,3,4
+presiono Alta y selecciona donde quiero estar y lo que haga se replicara para todos asi puedo tener a todoas comas y eliminar 
+la primera linea
+
+------------------------------------
+------------------------------------
+Al leer ficheros con datasets las cadenas de caracteres se convierten automáticamente a factores. Al utilizar read.table y read.csv usar el parámetro stringsAsFactors = FALSE.
